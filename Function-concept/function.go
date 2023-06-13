@@ -18,6 +18,6 @@ func main() {
 	// function may return multiple values
 	sum, subs := ops(2, 2)
 	fmt.Println("2+2=", sum, "2-2=", subs)
-	b, _ := ops(10, 2)
-	fmt.Println("10+2=", b)
+	b, _ := ops(10, 12)
+	fmt.Println("10+12=", b)
 }
